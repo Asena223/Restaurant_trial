@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container-fluid p-0 overflow-hidden">
+     <div class="row">
+         <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light bg-dark mb-1">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-white-50" href="#">
+                    <img src="img/logo.png" class="img-fluid">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active  text-white-50" aria-current="page" href="#">Anasayfa</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white-50" href="#yemekler_listesi">Yemekler</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white-50" href="#tatlilar_listesi">Tatlılar</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white-50" href="#salatalar_listesi">Salatalar</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white-50" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          İçecekler
+                        </a>
+                        <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item text-white-50" href="#">Kola: 5TL</a></li>
+                          <li><a class="dropdown-item text-white-50" href="#">Limonata: 8TL</a></li>
+                          <li><a class="dropdown-item text-white-50" href="#">Portakal Suyu: 6TL</a></li>
+                          <li><a class="dropdown-item text-white-50" href="#">Su: 2TL</a></li>
+                          <li><a class="dropdown-item text-white-50" href="#">Ayran: 4TL</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <img src="img/arka-2.png" class="arka img-fluid">
+                  </div>
+              </div>
+              <h1><marquee behavior="scroll" direction="down" scrollamount="3" class="d-flex justify-content-center w-100 h-50 mt-2 mb-4 text-secondary"> Yemek Listesi ve Porsiyon Ücretleri</marquee></h1>
+              <div class="row " id="yemekler_listesi">
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/yemek_1.jpg" alt="doner">
+                    <div class="card-body">
+                      <h5 class="card-title">Hatay Dürüm</h5>
+                      <p class="card-text">Tüm Türkiye' nin gözde yemeği haline gelmiş olan hatay döner uygun fiyata karşın sağladığı lezzet ile damaklarda tat bırakmaya devam ediyor. Farklı çeşitleri bulunmaktadır. Et dürüm, tavuk dürüm...<br><b>Fiyat: 15TL</b></p>
+                    </div>
+                  </div>
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/hatay-tepsi-kebabi.jpg" alt="kebap">
+                    <div class="card-body">
+                      <h5 class="card-title">Hatay Tepsi Kebap</h5>
+                      <p class="card-text">Hatay' a ait en leziz yemeklerin bana göre başında gelen lezzet olan tepsi kebabı zırh ile yapılmakta olup dakikalarca yoğrulmaktadır. Ve bu işlemler sonunda tüm lezzeti fırın çıkışında sizleri karşılamaktadır. <br> <b>Fiyat: 40TL</b></p>
+                    </div>
+                  </div>
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/humus.jpg" alt="humus">
+                    <div class="card-body">
+                      <h5 class="card-title">Humus</h5>
+                      <p class="card-text">Vegan ve vejetaryenlerin en gözde yemeklerinden biri olan Humus, Hatay’da yüz yıllardır sabah öğle akşam tüketilen gözde bir yemek. Neredeyse her sokağın başında bir humusçu var. Tahin, limon ve zeytinyağı ile zenginleştirilmiş nohut ezmesinden oluşmaktadır.<br><b>Fiyat: 14TL</b> </p>
+                    </div>
+                  </div>
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/oruk.jpg" alt="oruk">
+                    <div class="card-body">
+                      <h5 class="card-title">Oruk</h5>
+                      <p class="card-text">Oruk Hatay' da içli köfteye verilen isimdir. Antakya oruğunun diğerlerinden en büyük farkı dış köftesine et ve salça biber konulmasıdır. Türkiye' nin birçok yerinde vazgeçilemeyen oruk ev yemekleri yapan yerlerde sultanlığını sürdürmektedir. <br> <b>Fiyat: 20TL</b> </p>
+                    </div>
+                  </div>
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/asur.jpg" alt="asur">
+                    <div class="card-body">
+                      <h5 class="card-title">Aşur</h5>
+                      <p class="card-text">TAşur ya da aşür, Hatay mutfağına ait bir yemek. Buğday ve dana etiyle yapılan ve dövme diye de anılan aşur için bir nevi keşkek desek yanlış olmaz. Buğdayın uzun uzun pişirildikten sonra ezilmesiyle elde edilen aşuru siz de mutlaka denemelisiniz.<br><b>Fiyat: 30TL</b></p>
+                    </div>
+                  </div>
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/Biberli-Ekmek.jpg" alt="Biberli-Ekmek">
+                    <div class="card-body">
+                      <h5 class="card-title">Biberli ekmek</h5>
+                      <p class="card-text">Hatay yöresi hem yemekler hem tatlılar hem de çeşitli aperatifleriyle oldukça lezzetli birçok şeye sahiptir. Sabah kahvaltısında çok fazla tüketilen biberli ekmek insanları kendisine hayran bırakan bir besindir. <br><b>Fiyat: 5TL</b></p>
+                    </div>
+                  </div>
+                </div>
+                <h1><marquee behavior="scroll" direction="down" scrollamount="3" class="d-flex justify-content-center w-100 h-50 mt-2 mb-4 text-secondary"> Tatlılar ve Porsiyon Ücretleri</marquee></h1>
+                <div class="row " id="tatlilar_listesi">
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/kunefe.jpg" alt="kunefe">
+                    <div class="card-body">
+                      <h5 class="card-title">Künefe</h5>
+                      <p class="card-text">Künefe, kıyılmış filo hamuru, veya alternatif olarak ince irmik hamuruyla yapılan, şeker bazlı şurupla beslenen ve tipik olarak peynir veya pıhtılaşmış krema, fıstık, veya fındık gibi diğer malzemelerin dahil edilmesiyle yapılan, geleneksel bir Ortadoğu tatlısı.<br><b>Fiyat: 20TL</b></p>
+                    </div>
+                  </div>
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/kadayıf.jpg" alt="kadayıf">
+                    <div class="card-body">
+                      <h5 class="card-title">Hatay Taş Kadayıf</h5>
+                      <p class="card-text">Antalya yöresinde çok sevilen ve tüketilen Arap kadayıfı Türkiye'nin bazı bölgelerinde “Taş kadayıf” ya da “Yassı kadayıf” olarak da bilinen bir tatlı türüdür. Arap kadayıfının yapımı hamurunun imal edilmesiyle başlar. Bu hamur irmikli un, sıcak su ve mayanın karıştırılmasıyla yapılır. <br> <b>Fiyat: 20TL</b></p>
+                    </div>
+                  </div>
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/sam_bali.jpg" alt="sam_bali">
+                    <div class="card-body">
+                      <h5 class="card-title">Şam-Bali Tatlısı</h5>
+                      <p class="card-text">Şambali veya Şam tatlısı, Türk mutfağından irmikli bir tatlıdır. Yoğurt, irmik, un ana malzemeleridir. Karışım yağlanmış tepsiye dökülerek üzerine badem veya yer fıstığı dizilir. Öncelikle üzeri kızarana kadar fırında pişirilir. Şeker, su ve limon suyundan oluşan kaynatılmış şerbet sıcak vaziyette üzerine dökülür.<br><b>Fiyat: 8TL</b> </p>
+                    </div>
+                  </div>
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/haytali.jpg" alt="haytali">
+                    <div class="card-body">
+                      <h5 class="card-title">Haytalı</h5>
+                      <p class="card-text">Haytalı ismi bu tatlıyı yaratan köyün adından gelmektedir. Anlatıldığına göre köyün fakir bir köy oluşundan tatlı olarak mısır unu ve sütün karışımından yapılan muhallebiyi gerçek bir gül suyu üzerine koyularak ikram edilerek ortaya çıkmıştır. <br> <b>Fiyat: 5TL</b> </p>
+                    </div>
+                  </div>
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/kabak_tatlisi.jpg" alt="kabak_tatlisi">
+                    <div class="card-body">
+                      <h5 class="card-title">Kabak Tatlısı</h5>
+                      <p class="card-text">Balkabağı Trakya mutfağında çok çeşitli değerlendirilen bir malzemedir. Çorbası, böreği, tatlısı yapılır. Kırklareli'nin Balkan köylerinde kavun dilimleri şeklinde dilimleyip siniye dizilen kabaklar üzerine şeker serpiştirerek peçkada ( kuzine ) pişirilir ki bu yöreye has bir özellik taşır.<br><b>Fiyat: 15TL</b></p>
+                    </div>
+                  </div>
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/kombe.jpg" alt="kombe">
+                    <div class="card-body">
+                      <h5 class="card-title">Kömbe</h5>
+                      <p class="card-text">Gastronomi kenti Hatay’ın eşsiz lezzetlerinden olan kömbeler (kuru pasta-kurabiye), meşakkatli yolculuğun ardından çayların yanında yerlerini alıyor. Özellikle bayramlarda neredeyse her evde yapılan kömbeler, Hatay’ın künefeden sonra vazgeçilmez tatlı lezzetleri arasında yer alıyor.<br><b>Fiyat: 10TL</b></p>
+                    </div>
+                  </div>
+                </div>
+                <h1><marquee behavior="scroll" direction="down" scrollamount="3" class="d-flex justify-content-center w-100 h-50 mt-2 mb-4 text-secondary">Salatalar ve Porsiyon Ücretleri</marquee></h1>
+                <div class="row " id="salatalar_listesi">
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/zeytin.jpg" alt="zeytin">
+                    <div class="card-body">
+                      <h5 class="card-title">Zeytin Salatası</h5>
+                      <p class="card-text">Hatay’ın kırık zeytini ile yapılan bu muhteşem salata genelde kahvaltılarda yenilir fakat meze çeşidi olarak da tüketilebilir. Zeytinin lezzetine lezzet katan bu salata Hatay' gelenlerin de buradan zeytin alışverişi yapıp çiftçiye destek olmalarını sağlamaktadır.<br><b>Fiyat: 8TL</b></p>
+                    </div>
+                  </div>
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/hatay-usulu-babagannus.jpg" alt="babagannus">
+                    <div class="card-body">
+                      <h5 class="card-title">Babagannus Salatası</h5>
+                      <p class="card-text">Patlıcan, domates ve biberler közlenir. Kabukları soyulduktan sonra ufak ufak doğranır. Maydanozlar kıyılır. Sarımsaklar ayıklanıp havanda dövülür. Daha sonra bütün malzeme bir araya getirilip karıştırılır. Üzerine Zeytinyağı gezdirilerek servis edilir.<br><b>Fiyat: 10TL</b></p>
+                    </div>
+                  </div>
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/biber_salatası.jpg" alt="biber_salatası">
+                    <div class="card-body">
+                      <h5 class="card-title">Biber Salatası</h5>
+                      <p class="card-text">Biberler fırınlanır. Kabukları soyulacak kadar pişirilir. Kabkları soyulduktan sonra ince ince doğranır. İçine ufak doğranmış domatesler ilave edilir. Dövülmüş sarımsak, tuz, Nar Ekşisi ve Zeytinyağı eklenir karıştırılır ve servis edilir.<br><b>Fiyat: 8TL</b> </p>
+                    </div>
+                  </div>
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/zerzevat.jpg" alt="zerzevat">
+                    <div class="card-body">
+                      <h5 class="card-title">Zerzevat Salatası</h5>
+                      <p class="card-text">Kırmızı soğanlar soyulup yarım halkalar halinde ince ince doğranır. bir kaba alınıp üzerine hafif tuz serpilir ve hafifçe karıştırılır. İnce ince kıyılan maydanoz,sumak, pul biber ve limon suyu ilave edilirek karıştırılır. Üzerine zeytinyağı ilave edilerek servis edilir.<br><b>Fiyat: 10TL</b> </p>
+                    </div>
+                  </div>
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/yogurtlusemizotusalatasi.jpg" alt="yogurtlusemizotusalatasi">
+                    <div class="card-body">
+                      <h5 class="card-title">Yoğurtlu Semizotu Salatası</h5>
+                      <p class="card-text">Semizotları ayıklanır, yıkanır, süzdürülür. Sarımsaklar ezilir. Yoğurda katılıp üzerine semiz otları eklendikten sonra karıştırılıp bir tabağa alınır. Üzerine Zeytinyağı gezdirilerek servis edilir.<br><b>Fiyat: 12TL</b></p>
+                    </div>
+                  </div>
+                  <div class="card col-md-2 mb-3">
+                    <img class="card-img-top img-fluid resimler" src="img/zahter-salatasc4b11.jpg" alt="zahter-salatasc4b11">
+                    <div class="card-body">
+                      <h5 class="card-title">Zahter Salatası</h5>
+                      <p class="card-text">Hatay sofralarının baş tacıdır. Hazmı kolaylaştırır, kalp çarpıntısını giderir, sinirleri kuvvetlendirir, bağırsak hastalıklarında iyileştiricidir, böbrek taşlarının düşürülmesine yardım eder, spazm gidericidir, kilo vermeye yardımcıdır ayrıca vücuttaki kan sirkülasyonunu hızlandırdığından dolayı kalbe faydalıdır.<br><b>Fiyat: 14TL</b></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

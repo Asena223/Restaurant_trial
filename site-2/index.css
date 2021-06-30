@@ -1,0 +1,29 @@
+.navbar{
+    width: 100%;
+}
+.container-fluid .navbar-brand img{
+    height: 70px;
+}
+.arka{
+    width: 100%;
+    height: 600px;
+}
+.cardgroup .card{
+display: block;
+float: left;
+}
+.resimler{
+    width: 500px;
+    height: 200px;
+    padding: 2px;
+}
+.card img {
+    -webkit-filter: blur(2px);
+    filter: blur(3px);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+.card img:hover{
+    -webkit-filter: blur(0);
+    filter: blur(0);
+}

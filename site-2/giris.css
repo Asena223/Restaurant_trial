@@ -1,0 +1,7 @@
+html{
+    background:url("img/arka_plan.jpg") 0 0 no-repeat fixed;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+}
